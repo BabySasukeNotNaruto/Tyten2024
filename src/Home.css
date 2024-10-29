@@ -1,0 +1,20 @@
+/* Home.css */
+.home {
+    padding: 10px 500px;
+    background-color: rgba(0, 0, 0, 0.87); /* Ensures consistent color */
+    color: rgba(255, 255, 255, 0.9); /* White text for visibility */
+    min-height: 20vh; /* Takes up the full viewport height */
+    display: flex;
+    align-items: center; /* Centers content vertically */
+}
+
+  
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  

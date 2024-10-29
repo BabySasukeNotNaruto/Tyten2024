@@ -1,0 +1,101 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  background-image: url('./space-6664_512.gif'); /* Path is relative to the public folder */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0); /* Optional overlay */
+  width: 100%;
+}
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  color: white; /* White text for contrast */
+  margin: 0;
+  padding: 0;
+  background-image: url('./space-6664_512.gif'); /* Nebula-themed GIF */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App {
+  background-color: rgba(0, 0, 51, 0); /* Deep blue overlay for readability */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h3, p, a {
+  color: white; /* Ensures all text stays white */
+}
+
+/* Button Styling */
+button {
+  background-color: #0d47a1; /* Deep space blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1565c0; /* Lighter blue on hover */
+}
+
+/* Card or Section Styling */
+.section {
+  background: rgba(13, 71, 161, 0.8); /* Semi-transparent blue */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  color: white;
+}
+
+a {
+  color: #82b1ff; /* Light blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bbdefb; /* Lighten link on hover */
+}
+
+.footer {
+  display: flex; /* Align icons horizontally */
+  justify-content: center; /* Center the icons */
+  padding: 20px 0; /* Space above and below the icons */
+  background-color: #03297400; /* Match your background theme */
+}
+
+.social-icons {
+  display: flex; /* Align icons horizontally */
+  justify-content: center; /* Center the icons */
+}
+
+.social-icon {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  margin: 0 10px; /* Space between icons */
+  transition: transform 0.3s; /* Animation effect */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Scale the icon on hover */
+}
