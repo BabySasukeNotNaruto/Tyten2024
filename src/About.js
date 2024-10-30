@@ -13,7 +13,7 @@ function About() {
       >
         <div className="profile-pic-container">
           <img 
-            src="icon.jpg" // Replace with your actual photo URL
+            src="icon.jpg" 
             alt="My Photo"
             className="profile-pic"
           />

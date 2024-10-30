@@ -14,25 +14,23 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0); /* Optional overlay */
+  background-color: rgba(0, 0, 0, 0); 
   width: 100%;
 }
 
-/* App.css */
-
 body {
   font-family: Arial, sans-serif;
-  color: white; /* White text for contrast */
+  color: white; 
   margin: 0;
   padding: 0;
-  background-image: url('./space-6664_512.gif'); /* Nebula-themed GIF */
+  background-image: url('./space-6664_512.gif'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .App {
-  background-color: rgba(0, 0, 51, 0); /* Deep blue overlay for readability */
+  background-color: rgba(0, 0, 51, 0); 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,12 +38,12 @@ body {
 }
 
 h1, h2, h3, p, a {
-  color: white; /* Ensures all text stays white */
+  color: white; 
 }
 
 /* Button Styling */
 button {
-  background-color: #0d47a1; /* Deep space blue */
+  background-color: #0d47a1; 
   color: white;
   border: none;
   padding: 10px 20px;
@@ -56,12 +54,11 @@ button {
 }
 
 button:hover {
-  background-color: #1565c0; /* Lighter blue on hover */
+  background-color: #1565c0; 
 }
 
-/* Card or Section Styling */
 .section {
-  background: rgba(13, 71, 161, 0.8); /* Semi-transparent blue */
+  background: rgba(13, 71, 161, 0.8); 
   padding: 20px;
   border-radius: 8px;
   margin: 20px;
@@ -69,33 +66,33 @@ button:hover {
 }
 
 a {
-  color: #82b1ff; /* Light blue for links */
+  color: #82b1ff; 
   text-decoration: none;
 }
 
 a:hover {
-  color: #bbdefb; /* Lighten link on hover */
+  color: #bbdefb; 
 }
 
 .footer {
-  display: flex; /* Align icons horizontally */
-  justify-content: center; /* Center the icons */
-  padding: 20px 0; /* Space above and below the icons */
-  background-color: #03297400; /* Match your background theme */
+  display: flex; 
+  justify-content: center; 
+  padding: 20px 0; 
+  background-color: #03297400; 
 }
 
 .social-icons {
-  display: flex; /* Align icons horizontally */
-  justify-content: center; /* Center the icons */
+  display: flex;
+  justify-content: center; 
 }
 
 .social-icon {
-  width: 40px; /* Adjust size as needed */
-  height: 40px; /* Adjust size as needed */
-  margin: 0 10px; /* Space between icons */
-  transition: transform 0.3s; /* Animation effect */
+  width: 40px; 
+  height: 40px; 
+  margin: 0 10px; 
+  transition: transform 0.3s; 
 }
 
 .social-icon:hover {
-  transform: scale(1.1); /* Scale the icon on hover */
+  transform: scale(1.1); 
 }

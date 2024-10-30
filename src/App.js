@@ -4,13 +4,23 @@ import './App.css';
 import Home from './Home';
 import Projects from './Projects';
 import About from './About';
+import Contact from './Contact';
 
 function App() {
   return (
     <div className="App">
       <Home />
+      
+      {/* Navigation bar */}
+      <nav className="navbar">
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
       <About />
       <Projects />
+      <Contact />
 
       {/* Social Media Icons at the bottom of the page */}
       <footer className="footer">
